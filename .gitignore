@@ -1,0 +1,10 @@
+# macOS cache
+.DS_Store
+
+# C++ binary file and debug-associated files
+*.dSYM
+*.out
+# specified
+WordCount
+
+# EOF
