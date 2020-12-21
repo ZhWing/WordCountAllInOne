@@ -1,0 +1,7 @@
+# Hadoop output files
+output*/
+
+# target files
+target/
+
+# EOF
