@@ -27,7 +27,7 @@ public class WordCount {
     }
   }
 
-  public static class MyReduce extends Reducer<Text, LongWritable, Text, LongWritable> {
+  public static class MyReducer extends Reducer<Text, LongWritable, Text, LongWritable> {
     @Override
     protected void reduce(Text key, Iterable<LongWritable> values, Context context)
             throws IOException, InterruptedException {
@@ -53,7 +53,7 @@ public class WordCount {
     job.setMapOutputKeyClass(Text.class);
     job.setMapOutputValueClass(LongWritable.class);
 
-    job.setReducerClass(MyReduce.class);
+    job.setReducerClass(MyReducer.class);
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(LongWritable.class);
 

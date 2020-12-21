@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad46d37-fd08-4f52-bd44-b5e9c43ac880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordCountJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" afterDir="false" />
+    <list default="true" id="6ad46d37-fd08-4f52-bd44-b5e9c43ac880" name="Default Changelist" comment="Add Java solution based on Hadoop">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608566918443</updated>
-      <workItem from="1608566919604" duration="1149000" />
+      <workItem from="1608566919604" duration="1298000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Java solution based on Hadoop">
+      <created>1608568110064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608568110064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Java solution based on Hadoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Java solution based on Hadoop" />
   </component>
 </project>
