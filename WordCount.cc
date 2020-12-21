@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
   }
   // Output results
   std::for_each(std::begin(counter), std::end(counter), 
-    []<typename V> (V&& p) {
+    [](auto&& p) {
       std::cout << p.first << " " << p.second << std::endl;
     }
   );
