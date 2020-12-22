@@ -3,7 +3,7 @@ CCFLAGS := -std=c++20 -W{all,extra} -g
 
 all: WordCount
 
-WordCount:
+WordCount: WordCount.cc
 	$(CC)   $(CCFLAGS)   -o WordCount   WordCount.cc
 
 PHONY:
