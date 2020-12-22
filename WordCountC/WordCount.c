@@ -38,7 +38,8 @@ int main(int argc, char* argv[])
     size_t wordHead = 0;
     for (size_t i = 0; i != lineLen; ++i)
     {
-      if (line[i] == ',') {
+      if (line[i] == ',')
+      {
         if (i - wordHead == 0) continue;
         line[i] = '\0';
         pseudoHashValueIncByKey(line + wordHead);
