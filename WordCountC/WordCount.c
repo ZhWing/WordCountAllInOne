@@ -5,7 +5,7 @@
 #define MAXBUF 1024
 
 size_t counter[64];
-char chars[sizeof counter][MAXBUF / 2];
+char chars[sizeof counter / sizeof(size_t)][MAXBUF / 2];
 size_t size = 0;
 
 void pseudoHashValueIncByKey(const char*);
@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
 
 void pseudoHashValueIncByKey(const char* key)
 {
-  assert(size <= sizeof counter);
+  assert(size <= sizeof counter / sizeof(size_t));
 
   size_t i;
   for (i = 0; i != size; ++i)
