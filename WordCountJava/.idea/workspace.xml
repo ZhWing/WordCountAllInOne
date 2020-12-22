@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad46d37-fd08-4f52-bd44-b5e9c43ac880" name="Default Changelist" comment="Add Java solution based on Hadoop">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" afterDir="false" />
+    <list default="true" id="6ad46d37-fd08-4f52-bd44-b5e9c43ac880" name="Default Changelist" comment="Update Reducer classname">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608566918443</updated>
-      <workItem from="1608566919604" duration="1298000" />
+      <workItem from="1608566919604" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="Add Java solution based on Hadoop">
       <created>1608568110064</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608568110064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Reducer classname">
+      <created>1608568253537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608568253537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Java solution based on Hadoop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Java solution based on Hadoop" />
+    <MESSAGE value="Update Reducer classname" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Reducer classname" />
   </component>
 </project>

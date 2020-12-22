@@ -21,4 +21,4 @@ if __name__ == '__main__':
         counter[word] += 1
   
   for k, v in counter.items():
-    print('%s %d' % (k, v))
+    print('%s\t%d' % (k, v))

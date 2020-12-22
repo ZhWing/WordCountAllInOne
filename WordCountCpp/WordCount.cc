@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
   // Output results
   std::for_each(std::begin(counter), std::end(counter), 
     [](auto&& p) {
-      std::cout << p.first << " " << p.second << std::endl;
+      std::cout << p.first << "\t" << p.second << std::endl;
     }
   );
   return 0;

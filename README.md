@@ -5,7 +5,7 @@ Used language counting (includes Makefile):
 #### Language List:  
 - [x] C++
 - [x] Python
-- [x] Java
+- [x] Java (Hadoop)
 - [x] Rust
 - [x] Ruby
 - [x] C
