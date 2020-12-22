@@ -8,5 +8,5 @@ Used language counting (includes Makefile):
 - [x] Java
 - [x] Rust
 - [x] Ruby
-- [ ] C
+- [x] C
 
